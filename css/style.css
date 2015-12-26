@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'MINIMALHARD';
+	src: url('fonts/minimal.ttf'),
+	url('fonts/minimal.eot');
+}
+
+body{
+	background-color: black;
+	color: gray;
+	font-family: sans-serif;
+}
+header{
+margin: auto;
+margin-top: 0px;
+height: 374px;
+box-shadow-bottom:0px 1px -30px rgba(200,200,200,1);
+color: white;
+margin-bottom: -150px;
+}
+.head img{
+	margin-top: 30px;
+}
+header h1{
+	margin: 0px 0px 40px;
+	font-size: 60px;
+}
+header h1 a{
+	color:white;
+	text-decoration: none;
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+header .logo a img{
+	width: 240px;
+	height: 90px;
+	margin: 0px 0px 40px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+		margin-top: 15px;
+}
+header .logo a h1{
+	display:none;
+}
+.head h1{
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 90px;
+	font-family: "MINIMALHARD";
+}
+.top{
+	background:url(../img/back.jpg) no-repeat;
+}
+.social img{
+	position: relative;
+	left: 80px;
+}
+.social img{
+	width:70px;
+}
+.game_1 h2{
+	color: white;
+	font-family: "Finger Paint";
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 30px;
+}
+.game_1 p{
+	color:white;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding: 0px 5px 0px 20px;
+
+}
+.game_1 img{
+	padding: 5px;
+	width:250px;
+	border:1px solid;
+	background-color:white;
+	margin-bottom:10px;
+	margin-left: 30px;
+}
+nav li{
+display:inline;
+color:#6677ff;
+float:left;
+}
+.nav{
+	margin-bottom: 50px;
+}
+.nav ul{
+	padding: 0px;
+position: relative;
+left: 10px;
+
+}
+nav li a{
+text-decoration:none;
+color:white;
+background-color:#a6a6a6;
+padding:15px 25px;
+margin:auto 3px;
+border-radius: 5px;
+font-family: "Finger Paint";
+-webkit-transition: background-color 2s;
+-moz-transition: background-color 2s;
+-o-transition: background-color 2s;
+}
+nav li a:hover{
+	background-color:black;
+-webkit-transition: background-color 2s;
+-moz-transition: background-color 2s;
+-o-transition: background-color 2s;
+}
+
+
+footer img{
+	width:960px;
+	margin-bottom: -38px;
+}
+footer{
+	margin-top: 100px;
+	box-shadow: 0px 0px 40px rgba(255,255,255,.2);
+}
+footer p{
+	text-align: center;
+	position: relative;
+	bottom: 30px;
+	margin: 0px;
+	color: white;
+}
+.contact_content{
+	color: white;
+	line-height: 1.5em;
+	margin-top: 30px;
+}
+.contact_content ul li a{
+	text-decoration: none;
+	color: violet;
+}
+#slidorion span{
+	font-size: 30px;
+	color: white;
+	text-shadow: 0px 0px 4px white;
+}
+.contact_image{
+	margin-top: 60px;
+	width: 960px;
+	box-shadow: 0px 0px 40px white;
+}
+.contact_image img{
+	padding: 5px;
+	width:950px;
+	background-color: white;
+}
+footer p a{
+	text-decoration: none;
+	color: white;
+}
+.left{
+	margin: auto;
+}
+.wall img{
+	width: 350px;
+	cursor: pointer;
+}
+.wall img:hover{
+	width: 460px;
+
+	-webkit-transition: margin 2s;
+	-webkit-transition: width 2s;
+}
+
+.about,.gamer{
+	color:white;
+	line-height: 1.5em;
+	padding: 10px;
+	background: #cbcbcb;
+	border: 1px solid #bbb;
+	-webkit-box-shadow: 0 0 34px #bbb;
+	-moz-box-shadow: 0 0 34px #bbb;
+	box-shadow: 0 0 34px #bbb;
+	overflow: hidden;
+}
+.in{
+	background-color: white;
+	padding: 10px;
+	z-index: 100;
+	color:gray;
+	padding-bottom: 30px;
+	font-size: 16px;
+	line-height: 1.75em;
+
+}
+.in p{
+	padding: 30px;
+	padding-top: 10px;
+	color: black;
+}
+#note{text-align: center;display: block;}
+.about h2{
+
+	margin-bottom: 20px;
+	background-color: gray;
+	padding: 20px;
+	color: white;
+	z-index: 110;
+	box-shadow: 2px 2px 10px black;
+	font-family: "Finger Paint";
+}
+.dice{
+	font-family: "MINIMALHARD";
+}
+.gamer .in{
+	padding: 20px;
+	padding-left: 40px;
+}
+.gamer h3{
+	font-size: 35px;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	color: purple;
+	font-family: "Finger Paint";
+}
+.gamer p{
+	font-size: 16px;
+}
+.iframe{
+	margin-left: 85px;
+}

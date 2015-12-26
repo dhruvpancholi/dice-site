@@ -1,0 +1,27 @@
+ul li{
+	display: inline;
+	margin: 10px 0px;
+	padding: 0px;
+}
+ul{
+	padding: 0px;
+}
+ul li a{
+	padding: 10px;
+	text-decoration: none;
+	background-color: red;
+	position: relative;
+	top: 10px;
+}
+input{
+	padding: 5px;
+	float: right;
+}
+#search_bound{
+	padding: 5px;
+	background-color: red;
+}
+h1 a{
+	font-style: none;
+	text-decoration: none;
+}
